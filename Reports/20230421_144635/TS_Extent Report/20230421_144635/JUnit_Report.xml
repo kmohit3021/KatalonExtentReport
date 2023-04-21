@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Extent Report" time="22.994" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Extent Report" tests="1" failures="0" errors="0" time="22.994" skipped="0" timestamp="2023-04-21 14:46:43" hostname="mohit - 192.168.1.104" id="Test Suites/TS_Extent Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mohit/Katalon Studio/integrate_extent_with_katalon-master/Reports/20230421_144635/TS_Extent Report/20230421_144635"/>
+         <property name="logFiles" value="/Users/mohit/Katalon Studio/integrate_extent_with_katalon-master/Reports/20230421_144635/TS_Extent Report/20230421_144635/execution0.log"/>
+         <property name="attachments" value="Screenshots/googleScreenshot.png"/>
+         <property name="hostName" value="mohit - 192.168.1.104"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Extent Report example" time="22.545" classname="Test Cases/Extent Report example" status="PASSED">
+         <system-out><![CDATA[2023-04-21 14:46:43 - [TEST_CASE][PASSED] - Test Cases/Extent Report example: Test Cases/Extent Report example
+
+2023-04-21 14:46:44 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-04-21 14:46:44 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-04-21 14:46:44 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-04-21 14:46:44 - [TEST_STEP][PASSED] - execID = getExecutionSourceName(): null
+
+2023-04-21 14:46:44 - [TEST_STEP][PASSED] - extent = com.katalon.plugin.keyword.extentReport.Extent.setupExtentReport(execID): com.katalon.plugin.keyword.extentReport.Extent.setupExtentReport is PASSED
+
+2023-04-21 14:46:55 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.extentReport.Extent.setupExtentReport is PASSED
+
+2023-04-21 14:46:55 - [TEST_STEP][PASSED] - tcID = getExecutionSourceName().toString(): null
+
+2023-04-21 14:46:55 - [TEST_STEP][PASSED] - extentTest = com.katalon.plugin.keyword.extentReport.Extent.startExtentTest(tcID, "Extent Test", extent): com.katalon.plugin.keyword.extentReport.Extent.startExtentTest is PASSED
+
+2023-04-21 14:46:55 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.extentReport.Extent.startExtentTest is PASSED
+
+2023-04-21 14:46:55 - [TEST_STEP][PASSED] - driver = startNewBrowser(getExecutedBrowser()): Action delay is set to 0 milliseconds
+
+2023-04-21 14:46:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-21 14:46:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-21 14:47:00 - [TEST_STEP][PASSED] - extentTest.log(INFO, "Browser Launched"): null
+
+2023-04-21 14:47:00 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com": null
+
+2023-04-21 14:47:00 - [TEST_STEP][PASSED] - driver.get(baseUrl + "/"): null
+
+2023-04-21 14:47:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-21 14:47:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-21 14:47:04 - [TEST_STEP][PASSED] - extentTest.log(INFO, "Navigated to www.google.com"): null
+
+2023-04-21 14:47:04 - [TEST_STEP][PASSED] - getProjectDir(): null
+
+2023-04-21 14:47:04 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/" + "googleScreenshot.png"): Taking screenshot successfully
+
+2023-04-21 14:47:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/googleScreenshot.png]]
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - extentTest.log(INFO, "Snapshot below: " + extentTest.addScreenCapture(getProjectDir() + "/Screenshots/googleScreenshot.png")): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - title = driver.getTitle(): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - println(title): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - extentTest.log(INFO, "Get the WebSite title"): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - if (title.equalsIgnoreCase("Google")): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - extentTest.log(PASS, "Title verified"): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - driver.quit(): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - extentTest.log(INFO, "Browser closed"): null
+
+2023-04-21 14:47:05 - [TEST_STEP][PASSED] - com.katalon.plugin.keyword.extentReport.Extent.tearDownTest(driver, extent, extentTest): com.katalon.plugin.keyword.extentReport.Extent.tearDownTest is PASSED
+
+2023-04-21 14:47:06 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.extentReport.Extent.tearDownTest is PASSED
+
+2023-04-21 14:47:06 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-04-21 14:47:06 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-21 14:46:43 - [TEST_SUITE][PASSED] - TS_Extent Report: Test Cases/Extent Report example]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
